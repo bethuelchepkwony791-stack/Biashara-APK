@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "axios": "^1.17.0",
+    "cors": "^2.8.6",
+    "firebase-admin": "^13.10.0",
+    "firebase-functions": "^7.2.5"
+  },
+  "name": "biashara_os",
+  "version": "1.0.0",
+  "description": "A new Flutter project.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bethuelchepkwony791-stack/biashara_os.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bethuelchepkwony791-stack/biashara_os/issues"
+  },
+  "homepage": "https://github.com/bethuelchepkwony791-stack/biashara_os#readme"
+}

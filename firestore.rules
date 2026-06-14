@@ -1,0 +1,23 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Customers collection - only authenticated users can read/write
+    match /customers/{customerId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null;
+    }
+    
+    // Team members collection - only authenticated users
+    match /team_members/{memberId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null;
+    }
+    
+    // Activity logs - only authenticated users can write
+    match /activity_logs/{logId} {
+      allow create: if request.auth != null;
+      allow read: if request.auth != null;
+    }
+  }
+}

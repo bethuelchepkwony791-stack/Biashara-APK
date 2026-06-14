@@ -1,0 +1,25 @@
+# Flutter & Dart
+.DS_Store
+.dart_tool/
+.packages
+.pub/
+/build/
+/ios/
+/macos/
+/windows/
+/linux/
+/web/
+pubspec.lock
+
+# Android & IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Local configuration files
+*.properties
+local.properties

@@ -1,0 +1,35 @@
+name: biashara_os
+description: A business management app with M-PESA integration.
+publish_to: 'none'
+version: 1.0.2+4   # format: <major>.<minor>.<patch>+<build_number>
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.8.0
+  cloud_firestore: ^5.4.0
+  firebase_auth: ^5.3.0
+  http: ^1.2.0
+  csv: ^6.0.0
+  share_plus: ^10.0.0
+  path_provider: ^2.1.0
+  universal_html: ^2.2.4
+  pdf: ^3.10.7
+  printing: ^5.12.0
+  intl: ^0.19.0
+  shimmer: ^3.0.0
+  url_launcher: ^6.2.5
+  connectivity_plus: ^6.0.0   # Add this line
+  file_picker: ^8.0.0
+  firebase_storage: ^12.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

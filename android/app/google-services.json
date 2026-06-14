@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "53692608249",
+    "project_id": "biasharaos-5be70",
+    "storage_bucket": "biasharaos-5be70.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53692608249:android:e3ac7f67ce2c58c3a4bc28",
+        "android_client_info": {
+          "package_name": "com.biashara.os"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53692608249-5us832osmtjva036h9uikkpcog0ora1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYtXtPraW9Q_GSRh0YU7Vfzr3Vnpo7tHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53692608249-5us832osmtjva036h9uikkpcog0ora1v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "53692608249-86n851k71t6cmnb1iv2kai4p9qbu7m4v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.biasharaOs"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53692608249:android:1f1a92b4a770fa4da4bc28",
+        "android_client_info": {
+          "package_name": "com.example.biashara_os"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53692608249-5us832osmtjva036h9uikkpcog0ora1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYtXtPraW9Q_GSRh0YU7Vfzr3Vnpo7tHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53692608249-5us832osmtjva036h9uikkpcog0ora1v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "53692608249-86n851k71t6cmnb1iv2kai4p9qbu7m4v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.biasharaOs"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
