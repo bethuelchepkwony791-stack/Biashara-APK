@@ -1,13 +1,14 @@
 workflows:
-  android-only:
+  android-workflow:
     name: Android Build
     environment:
-      flutter: stable
+      flutter: stable                # Use the latest stable Flutter (≥3.27)
       java: 17
     scripts:
-      - name: Get Flutter packages
+      - name: Get packages
         script: flutter pub get
-      - name: Build Android APK
-        script: flutter build apk --release --android-skip-build-dependency-validation
+      - name: Build APK
+        script: |
+          flutter build apk --release --android-skip-build-dependency-validation
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
