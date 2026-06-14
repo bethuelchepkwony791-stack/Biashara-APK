@@ -2,7 +2,7 @@ workflows:
   android-workflow:
     name: Android Build
     environment:
-      flutter: stable                # Use the latest stable Flutter (≥3.27)
+      flutter: 3.27.0   # exact version that uses AGP 8.9.1
       java: 17
     scripts:
       - name: Get packages
