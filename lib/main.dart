@@ -42,21 +42,17 @@ class _SplashScreenState extends State<SplashScreen> {
 
   Future<void> _initialize() async {
     try {
-      // 1. Initialize Firebase
       await Firebase.initializeApp(
         options: DefaultFirebaseOptions.currentPlatform,
       ).timeout(const Duration(seconds: 15));
 
-      // 2. Optional: test Firebase Auth (this will confirm Google Play Services)
-      // This will throw a "no such method" error if Play Services are missing
       await FirebaseAuth.instance.authStateChanges().first;
 
-      if (mounted) {
-        Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(builder: (_) => const AuthWrapper()),
-        );
-      }
+      if (!mounted) return;
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (_) => const AuthWrapper()),
+      );
     } catch (e) {
       if (mounted) {
         setState(() {
